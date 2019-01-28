@@ -1,5 +1,5 @@
 # ArQmACommunity Pages
-[This github pages site](https://ArqTras.github.io/) belongs to the ArQmA Community. It hosts or links to various information about the ArQmA digital currency.
+[This github pages site](https://arqma.github.io/) belongs to the ArQmA Community. It hosts or links to various information about the ArQmA digital currency.
 
 ## Vision for This Site
 

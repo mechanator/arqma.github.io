@@ -1,1 +1,1 @@
-This folder contains information about AEON.
+his folder contains information about AEON.
