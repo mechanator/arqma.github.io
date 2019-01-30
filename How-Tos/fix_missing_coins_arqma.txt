@@ -1,18 +1,18 @@
 Redownloading the blockchain and restoring your wallet to fix missing balance bug.
-Old bug fixed in Devils Touch 1.2.4.
+Old bug fixed in Devils Touch 1.2.4. through Devil's Gate 0.2.2
 
 - stop arqmad
 - Windows users c:\Program Data\arqma (delete all data)
-(That is, delete the directory where you have stored your local node blockchain file directory called "lmdb" and the parent directory file p2pstat.bin )
+(That is, delete the directory where you have stored your local node blockchain file directory called "lmdb" and the parent directory file p2pstate.bin, backup your wallet files if they are there if you want. )
 
-- start daemon and wait for full sync
-- open arqma-wallet-cli --restore-deterministic-wallet
-- put your mnemonic and new wallet name 
--wait for full sync and your coins should be there
+- Start daemon and wait for full sync.
+- Open arqma-wallet-cli --restore-deterministic-wallet .
+- Put in your 25 word mnemonic seed phrase and new wallet name .
+- Wait for full sync and your coins balance should be there.
 
 -Linux users 
-- delete .arqma dir
-- start ./arqmad for full sync
-- ./arqma-wallet-cli --restore-deterministic-wallet
-- put your mnemonic and new wallet name 
-- after sync there should be your coins
+- delete .arqma dir .
+- start ./arqmad for full sync .
+- ./arqma-wallet-cli --restore-deterministic-wallet 
+- Put in your 25 word mnemonic seed phrase and new wallet name.
+- after sync there should be your coin balance.
